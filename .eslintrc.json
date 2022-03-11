@@ -6,11 +6,13 @@
     },
     "plugins": [
       "@typescript-eslint",
-      "react-hooks"
+      "react-hooks",
+      "prettier"
     ],
     "extends": [
       "plugin:react/recommended",
-      "plugin:@typescript-eslint/recommended"
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
